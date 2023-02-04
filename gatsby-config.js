@@ -52,6 +52,7 @@ module.exports = {
         siteUrl: process.env.SITEURL || config.siteUrl,
     },
     trailingSlash: 'always',
+    pathPrefix: `/blog`,
     plugins: [
         /**
          *  Content Plugins
