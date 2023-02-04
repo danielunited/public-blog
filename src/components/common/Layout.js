@@ -48,7 +48,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     <div className="container">
                         <div className="site-mast">
                             <div className="site-mast-left">
-                                <Link to="/">
+                                <Link to="/blog/">
                                     {site.logo ? (
                                         <img
                                             className="site-logo"
