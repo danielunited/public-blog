@@ -4,18 +4,3 @@
 
 [template]
   incoming-hooks = ["Ghost"]
-
-
-[[redirects]]
-  from = "/blog/*"
-  to = "https://public-community-blog.netlify.app/:splat"
-  status = 200
-  force = true
-  headers = {X-Forwarded-Host = "public-community-blog.netlify.app"}
-
-[[redirects]]
-  from = "/blog"
-  to = "https://public-community-blog.netlify.app/blog/"
-  status = 200
-  force = true
-  headers = {X-Forwarded-Host = "public-community-blog.netlify.app"}
