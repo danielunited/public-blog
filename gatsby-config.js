@@ -51,6 +51,9 @@ module.exports = {
     siteMetadata: {
         siteUrl: process.env.SITEURL || config.siteUrl,
     },
+    modifyUrlPrefix: {
+        '/': '/blog/',
+    },
     trailingSlash: 'always',
     plugins: [
         /**
