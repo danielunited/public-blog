@@ -51,9 +51,6 @@ module.exports = {
     siteMetadata: {
         siteUrl: process.env.SITEURL || config.siteUrl,
     },
-    modifyUrlPrefix: {
-        '/': '/blog/',
-    },
     trailingSlash: 'always',
     plugins: [
         /**
@@ -75,6 +72,7 @@ module.exports = {
                 name: `images`,
             },
         },
+        'gatsby-plugin-remove-fingerprints',
         `gatsby-plugin-image`,
         `gatsby-plugin-sharp`,
         `gatsby-transformer-sharp`,
