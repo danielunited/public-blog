@@ -5,7 +5,7 @@ import { Tags } from "@tryghost/helpers-gatsby";
 import { readingTime as readingTimeHelper } from "@tryghost/helpers";
 
 const PostCard = ({ post }) => {
-    const url = `${post.slug}/`;
+    const url = `https://google.com`;
     const readingTime = readingTimeHelper(post);
 
     return (
