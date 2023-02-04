@@ -4,3 +4,18 @@
 
 [template]
   incoming-hooks = ["Ghost"]
+
+
+[[redirects]]
+from = "/blog/*"
+to = "https://public-blog.fly.dev/:splat"
+status = 200
+force = true
+headers = {X-Forwarded-Host = "https://lively-cajeta-2c3459.netlify.app"}
+
+[[redirects]]
+from = "/blog"
+to = "https://public-blog.fly.dev/blog/"
+status = 200
+force = true
+headers = {X-Forwarded-Host = "https://lively-cajeta-2c3459.netlify.app"}
