@@ -6365,6 +6365,11 @@ gatsby-plugin-react-helmet@5.15.0:
   dependencies:
     "@babel/runtime" "^7.15.4"
 
+gatsby-plugin-remove-fingerprints@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-remove-fingerprints/-/gatsby-plugin-remove-fingerprints-0.0.2.tgz#ef21a184e2f5deffe644aebd16b8d67f46a7d51b"
+  integrity sha512-af1zbr0+cr3fcjEAVAbUia/On6GJbrxoLVNZf7TxLqKzPMfMlDNXf6hDXAJy0dzxE6qrqD2oyGZpk1rOdgUQ0Q==
+
 gatsby-plugin-sharp@4.15.1:
   version "4.15.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-4.15.1.tgz#5daeb44e72993c138a29755c7461b059ae22b6e4"
